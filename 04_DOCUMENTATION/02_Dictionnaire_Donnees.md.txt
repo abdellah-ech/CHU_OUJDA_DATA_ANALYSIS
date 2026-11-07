@@ -1,0 +1,53 @@
+# Dictionnaire des données — CHU Mohammed VI d'Oujda
+
+## 1. Présentation
+
+Ce document décrit les principales informations utilisées dans le projet d'analyse des demandes de stage du CHU Mohammed VI d'Oujda.
+
+La table principale utilisée pour l'analyse est `stagiaires`.
+
+## 2. Description des colonnes
+
+| Colonne | Description | Utilisation dans l'analyse |
+|---|---|---|
+| id | Identifiant de la demande | Comptage et identification des enregistrements |
+| nom | Nom du stagiaire | Identification du demandeur |
+| prenom | Prénom du stagiaire | Identification du demandeur |
+| cin | Numéro de la carte d'identité | Contrôle de l'unicité |
+| email | Adresse électronique | Contrôle de l'unicité |
+| etablissement | Établissement d'origine | Analyse par établissement |
+| specialite | Spécialité ou domaine d'études | Description du profil |
+| niveau_academique | Niveau d'études | Analyse par niveau académique |
+| service_demande | Service demandé au CHU | Analyse par service |
+| date_debut | Date souhaitée de début du stage | Analyse temporelle |
+| date_fin | Date souhaitée de fin du stage | Informations sur la période |
+| statut | État de traitement de la demande | Suivi des demandes |
+| justification | Motif ou commentaire associé à la décision | Information complémentaire |
+
+## 3. Catégories de statut
+
+Les principaux statuts utilisés dans le tableau de bord sont :
+
+| Statut | Signification |
+|---|---|
+| en_attente | Demande en cours de traitement |
+| valide | Demande acceptée |
+| refuse | Demande refusée |
+
+Certaines variations d'écriture ont été harmonisées pendant la préparation des données.
+
+## 4. Dimensions d'analyse
+
+Les principales dimensions utilisées dans Power BI sont :
+
+- Statut de la demande.
+- Établissement d'origine.
+- Service demandé.
+- Niveau académique.
+- Année de la demande.
+
+## 5. Remarque sur la confidentialité
+
+Les colonnes contenant des informations personnelles, telles que le nom, le prénom, le CIN et l'adresse e-mail, sont décrites ici uniquement pour documenter la structure de la base.
+
+Les données personnelles réelles ne doivent pas être publiées dans le dépôt GitHub.

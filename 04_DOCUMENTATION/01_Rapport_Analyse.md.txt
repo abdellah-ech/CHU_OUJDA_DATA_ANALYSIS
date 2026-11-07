@@ -1,0 +1,65 @@
+# Rapport d'analyse — CHU Mohammed VI d'Oujda
+
+## 1. Contexte du projet
+
+Ce projet porte sur l'analyse et le suivi des demandes de stage au sein du Centre Hospitalier Universitaire Mohammed VI d'Oujda.
+
+L'objectif est d'exploiter les données des demandes afin de faciliter leur suivi et de fournir une vision synthétique de leur répartition.
+
+## 2. Objectifs de l'analyse
+
+- Mesurer le volume total des demandes.
+- Suivre la répartition des demandes par statut.
+- Identifier les établissements les plus représentés.
+- Analyser les demandes par service et par niveau académique.
+- Présenter les résultats dans un tableau de bord interactif.
+
+## 3. Préparation et contrôle des données
+
+La préparation des données a comporté plusieurs opérations :
+
+- Vérification du nombre d'enregistrements.
+- Contrôle de l'unicité des identifiants.
+- Vérification des doublons potentiels.
+- Identification des valeurs manquantes et incohérentes.
+- Harmonisation des catégories de statut.
+- Nettoyage et préparation des données avec Power Query.
+
+Les données ont ensuite été préparées pour leur utilisation dans Power BI.
+
+## 4. Résultats de l'analyse
+
+La dernière version du tableau de bord présente les indicateurs suivants :
+
+| Indicateur | Résultat |
+|---|---:|
+| Total des demandes | 156 |
+| En attente | 73 |
+| Validées | 57 |
+| Refusées | 26 |
+| Taux de validation | 36,54 % |
+| Taux de refus | 16,67 % |
+
+Ces indicateurs permettent d'obtenir une vue globale de l'état des demandes.
+
+## 5. Analyses réalisées
+
+Les demandes ont été étudiées selon plusieurs dimensions :
+
+- **Statut :** suivi des demandes en attente, validées et refusées.
+- **Établissement :** comparaison du nombre de demandes selon leur établissement d'origine.
+- **Service :** observation de la répartition des demandes par service demandé.
+- **Niveau académique :** analyse des profils selon leur niveau d'études.
+- **Année :** observation de la répartition temporelle des demandes.
+
+## 6. Tableau de bord
+
+Le tableau de bord Power BI regroupe les indicateurs et les graphiques dans une seule interface.
+
+Des filtres interactifs permettent d'explorer les résultats selon l'établissement, le service et le statut.
+
+## 7. Conclusion
+
+Ce travail m'a permis de mettre en pratique une démarche d'analyse de données allant du contrôle et de la préparation des données jusqu'à la création d'un tableau de bord interactif.
+
+Les résultats offrent une vision synthétique des demandes de stage et facilitent leur suivi.

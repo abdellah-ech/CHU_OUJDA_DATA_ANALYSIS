@@ -1,0 +1,103 @@
+# Méthodologie — Projet Data Analyst CHU Oujda
+
+## 1. Présentation de la démarche
+
+Le projet suit une démarche d'analyse de données organisée en plusieurs étapes, depuis l'exploration de la base de données jusqu'à la création d'un tableau de bord interactif.
+
+## 2. Étape 1 — Exploration et extraction SQL
+
+**Outil : MariaDB / SQL**
+
+Travaux réalisés :
+
+- Exploration de la structure de la base de données.
+- Identification de la table principale `stagiaires`.
+- Extraction des informations nécessaires à l'analyse.
+- Utilisation de requêtes SQL pour examiner les données.
+
+**Pourquoi ?**
+
+Cette étape permet de comprendre les données disponibles avant de commencer leur analyse.
+
+## 3. Étape 2 — Contrôle de la qualité des données
+
+**Outil : SQL**
+
+Contrôles réalisés :
+
+- Vérification du nombre total d'enregistrements.
+- Vérification des identifiants uniques.
+- Contrôle des doublons potentiels.
+- Identification des valeurs manquantes.
+- Vérification de la cohérence des statuts.
+- Contrôle des dates et des informations nécessaires à l'analyse.
+
+**Pourquoi ?**
+
+Des données incorrectes ou incohérentes peuvent fausser les résultats et les indicateurs.
+
+## 4. Étape 3 — Nettoyage et préparation
+
+**Outil : Power Query**
+
+Travaux réalisés :
+
+- Nettoyage des valeurs textuelles.
+- Harmonisation des catégories.
+- Vérification des champs utilisés dans l'analyse.
+- Préparation de la table pour son utilisation dans Power BI.
+
+**Pourquoi ?**
+
+Cette étape permet d'obtenir des données plus cohérentes et adaptées à la visualisation.
+
+## 5. Étape 4 — Création des indicateurs
+
+**Outil : Power BI / DAX**
+
+Indicateurs réalisés :
+
+- Nombre total de demandes.
+- Nombre de demandes en attente.
+- Nombre de demandes validées.
+- Nombre de demandes refusées.
+- Taux de validation.
+- Taux de refus.
+
+**Pourquoi ?**
+
+Les KPI permettent de résumer les informations importantes et de faciliter le suivi de l'activité.
+
+## 6. Étape 5 — Création du tableau de bord
+
+**Outil : Power BI**
+
+Visualisations réalisées :
+
+- Cartes KPI.
+- Répartition des demandes par statut.
+- Analyse par établissement.
+- Analyse par service.
+- Répartition par niveau académique.
+- Analyse par année.
+- Filtres interactifs.
+
+**Pourquoi ?**
+
+Le tableau de bord permet de présenter les résultats de manière visuelle et de faciliter l'exploration des données.
+
+## 7. Étape 6 — Vérification des résultats
+
+Les résultats des indicateurs ont été vérifiés en comparant les volumes des différentes catégories avec le nombre total de demandes.
+
+Par exemple :
+
+73 demandes en attente + 57 demandes validées + 26 demandes refusées = 156 demandes.
+
+Cette vérification permet de contrôler la cohérence de la répartition par statut.
+
+## 8. Conclusion
+
+Cette méthodologie m'a permis de pratiquer les principales étapes d'un projet Data Analyst :
+
+**SQL → Contrôle des données → Power Query → Analyse → Power BI → Tableau de bord.**
